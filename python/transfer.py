@@ -16,12 +16,12 @@ k_disc = 1
 k_clf = 8
 K = 4
 # 替换为实际路径
-ROOT_DIR = "E:\\Simulation\\sim\\1221_3person"  # 替换为实际路径
-ROOT_DIR2 = "E:\\Simulation\\real\\threeperson"
-ROOT_DIR3 = "E:\\Simulation\\real\\1204_train1"
+ROOT_DIR = "train_simdata"
+ROOT_DIR2 = "test_realdata"
+ROOT_DIR3 = "train_realdata"
 
 BATCH_SIZE = 8
-MODEL_FILE = 'C:\\Users\\Administrator\\Downloads\\dual recognition_tworgb\\python\\sim_model\\bestmodel_singleori_class_K_1103=4_all_acc=88.33333587646484_actacc=69.16667175292969_resnet18.pth'  # pretrained model using simulated dataset
+MODEL_FILE = ''  # pretrained model using simulated dataset
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def loop_iterable(iterable):

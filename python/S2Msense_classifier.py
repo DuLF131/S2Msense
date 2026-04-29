@@ -105,8 +105,8 @@ def run(device):
     set_seed()
     args = Options().initialize()
     # 替换为实际路径
-    ROOT_DIR_sim = "E:\\Simulation\\sim\\1221_3person"
-    ROOT_DIR_real = "E:\\Simulation\\real\\threeperson"
+    ROOT_DIR_sim = "train_simdata"
+    ROOT_DIR_real = "test_realdata"
     BATCH_SIZE = 16
     patience = 100  # 早停
 
